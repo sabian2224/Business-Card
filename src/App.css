@@ -1,0 +1,176 @@
+body{ 
+  background-color: #31405e;
+}
+
+p {
+  margin: 0;
+}
+
+.business--card{ 
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  background-color: #23272f;
+  max-width: 370px;
+  color: whitesmoke;
+  margin-bottom: 50px;
+}
+
+.App{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App > h1 {
+  color: white;
+}
+
+.App > p {
+  color: white;
+  margin: 0;
+}
+
+/*Info Section*/
+.info--section{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card--image{
+  height: 23rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  margin-top: 5px;
+}
+
+.subtitle {
+  color: rgb(245, 210, 11);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+
+.info--text_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.info--contact_container{ 
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.email--button {
+  background-color: white;
+  border: none;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.email--button:hover {
+  opacity: 0.8;
+}
+
+.mail--icon {
+  margin-right: 2px;
+  width: 12px;
+}
+
+.linkedin--button {
+  background-color: rgb(0, 119, 181);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.linkedin--button:hover{ 
+  opacity: 0.8;
+}
+
+.linkedin-button--icon {
+  width: 17px;
+  margin-bottom: 3px;
+}
+
+
+/*About*/
+.about--container {
+  padding: 10px 20px;
+}
+
+
+.about--title {
+  margin-bottom: 7px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.about--text {
+  font-size: 14px;
+}
+
+/*Interests*/
+.interests--container{ 
+  padding: 10px 20px;
+}
+
+.interests--title{ 
+  margin-bottom: 7px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.footer {
+  background-color: #0c0c0c;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
+
+.social--link{ 
+  width: 20px;
+  background-color: grey;
+  padding: 10px 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.social--link:hover {
+  background-color: rgb(245, 210, 11);
+}
